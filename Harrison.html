@@ -4,11 +4,52 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body style="max-width:1300px">
+<head>
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: #111;
+        }
+        
+        .active {
+          background-color: #04AA6D;
+        }
+        </style>
+      <ul>
+        <li><a href=index.html>home</a></li>
+        <li><a href=nested.html>nested examples</a></li>
+        <li><a href=attributes.html>attribute examples</a></li>
+        <li><a href=tags.html>tag examples</a></li>
+        <li><a href=Harrison.html>Harrison’s page</a></li>
+        <li><a href=Nathan.html>Nathan’s page</a></li>
+    </ul>
+</head>
 
+
+
+<body>
 <!-- First Grid: Logo & About -->
 <div class="row">
-  <div style="height:700px">
+  <div>
     <div>
       <h1>My Logo</h1>
     </div>
@@ -32,8 +73,8 @@
 </div>
 
 <!-- Second Grid: Work & Resume -->
-<div class="row">
-  <div style="min-height:800px" id="work">
+<div>
+  <div id="work">
     <div>
       <h2>My Work</h2>
       <p>Some of my latest projects.</p>
@@ -63,9 +104,8 @@
         <img src="#" style="width:100%">
       </div>
     </div><br>
-    <p>Just call me awesome.</p>
   </div>
-  <div  style="min-height:800px">
+  <div>
     <div >
       <h2>Resume</h2>
       <p>A draft from my CV</p>
@@ -114,18 +154,18 @@
 
 <!-- Third Grid: Swing By & Contact -->
 <div id="contact">
-  <div  style="height:700px">
+  <div>
     <div >
       <h1>Swing By</h1>
     </div>
-    <div class="w3-padding-64">
+    <div>
       <p>...</p>
       <p>idaho, US</p>
       <p>.....</p>
       <p>test@test.com</p>
     </div>
   </div>
-  <div  style="height:700px">
+  <div>
     <div >
       <h1>Contact</h1>
       <p >GET IN TOUCH</p>
