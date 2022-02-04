@@ -1,0 +1,212 @@
+/* import reset.css */
+@import url(reset.css);
+
+/* color scheme: https://paletton.com/#uid=23V0u0k699R4Nmp5GgxbV6qiT6g */
+
+html {
+    background-color: darkgray;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 62.5%; /* 10px based on a browser default of 16px */
+}
+
+body {
+    line-height: 1.4;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 3.6rem;
+    color: darkgray;
+    text-align: center;
+    clear: both;
+    padding: 1.5rem 1.5rem;
+    line-height: 1.1rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: #847D6C;
+    text-align: center;
+}
+
+    h2 a {
+        font-size: inherit;
+    }
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+a {
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+/* WebPage layout*/
+#WebPage {
+    width: 960px;
+    margin: 1.5rem auto;
+}
+
+/* Banner */
+#banner {
+    background-color: #4D4E5B;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #333333;
+    padding: 1rem 1rem 0 1rem;
+    margin: 1.5rem;
+}
+
+    #banner a#gimm {
+        float: left;
+    }
+
+        #banner a#gimm img {
+            height: 150px;
+            width: 300px;
+            border-radius: 20px;
+        }
+
+    #banner a#idaho {
+        float: right;
+    }
+
+        #banner a#idaho img {
+            height: 150px;
+            border-radius: 20px;
+            width: 200px;
+        }
+
+    #banner nav {
+        background-color: #3f3f3e;
+        border-radius: 10px;
+        padding: .5rem 0;
+        overflow: hidden;
+    }
+
+        #banner nav ul {
+            text-align: center;
+        }
+
+        #banner nav li {
+            display: inline;
+        }
+
+        #banner nav a {
+            color: darkgray;
+            padding: 1.0rem 2.0rem;
+        }
+
+            #banner nav a:hover {
+                background-color: #6B6D7B;
+            }
+
+/* Content*/
+#Wrapper {
+    background-color: lightgray;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #333333;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+    #Wrapper h2 {
+        padding: 1rem 0;
+    }
+
+/* sidelinks*/
+#Sidelinks {
+    width: 15%;
+    float: left;
+}
+
+    #Sidelinks ul {
+        text-align: center;
+    }
+
+    #Sidelinks li {
+        padding-bottom: 1rem;
+    }
+
+    #Sidelinks a {
+        color: #131210;
+    }
+
+        #Sidelinks a:hover {
+            color: #847D6C;
+            text-decoration: underline;
+        }
+
+/*Blog articles*/
+
+#Posts {
+    width: 85%;
+    float: right;
+    background-color: white;
+}
+
+    #Posts a {
+        color: #4E4A3F;
+    }
+
+        #Posts a:hover {
+            color: #847D6C;
+            text-decoration: underline;
+        }
+
+    #Posts p {
+        padding: 0.5rem;
+    }
+
+    #Posts hr {
+        border-color: #eeeeee;
+        border-style: ridge;
+    }
+
+    #Posts footer {
+        padding: 0.5rem;
+    }
+
+/* Footer*/
+
+#Footer {
+    background-color: #4D4E5B;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #333333;
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+    #Footer #BSUlogo {
+        float: left;
+    }
+
+#BSUlogo a img {
+    height: 70px
+}
+
+#Footer #BearLogo {
+    float: right;
+}
+
+#BearLogo a img {
+    height: 70px
+}
+
+#Footer p {
+    clear: both;
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    font-style: italic;
+    color: darkgray;
+}
