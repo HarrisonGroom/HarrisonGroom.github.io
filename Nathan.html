@@ -4,7 +4,11 @@
     <head>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
         <title>Nathan Renfro</title>
-        <link rel='stylesheet' href='style.css'>
+        <link rel='stylesheet' href='styleNathan.css'>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -12,26 +16,40 @@
 
             <!-- Banner Section-->
             <header id="Banner">
+                <div class="row DivBack">
+                    <div class="col-6">
+                        <h1 id="Name">Nathan Renfro</h1>
+                    </div>
+                    <div class="col-6 ContentRight">
+                        <a href="https://www.boisestate.edu/">
+                            <img src="Boise state.jpg" alt="Boise State Logo" id="BSULogo" />
+                        </a>
+                    </div>
 
-                <a href="https://boisestate.edu">
-                    <img src="Boise state.jpg" alt="Boise State Logo" id="BSULogo" />
-                </a>
+                </div>
+                <div class="row">
+                    <nav id="Navigation">
+                        <ul id="NavBar">
+                            <li class="NavLink"><a href="https://harrisongroom.github.io">Home</a></li>
+                            <li class="NavLink"><a href="https://harrisongroom.github.io/Nested.html">Nested
+                                    Examples</a>
+                            </li>
+                            <li class="NavLink"><a href="https://harrisongroom.github.io/attributes.html">Attribute
+                                    Examples</a></li>
+                            <li class="NavLink"><a href="https://harrisongroom.github.io/tags.html">Tag Examples</a>
+                            </li>
+                            <li class="NavLink"><a href="https://harrisongroom.github.io/Harrison.html">Harrison’s
+                                    page</a>
+                            </li>
+                            <li class="NavLink"><a href="https://steveclowdus.github.io">Steve’s page</a></li>
 
-                <h1 id="TopBanner">Nathan Renfro</h1>
-                <nav id="Navigation">
-                    <ul id="NavBar">
-                        <li class="NavLink"><a href="index.html">Home</a></li>
-                        <li class="NavLink"><a href="Nested.html">Nested Examples</a></li>
-                        <li class="NavLink"><a href="attributes.html">Attribute Examples</a></li>
-                        <li class="NavLink"><a href="tags.html">Tag Examples</a></li>
-                        <li class="NavLink"><a href="Harrison.html">Harrison’s page</a></li>
-                        <li class="NavLink"><a href="https://steveclowdus.github.io">Steve’s page</a></li>
-
-                    </ul>
-                </nav>
+                        </ul>
+                    </nav>
+                </div>
             </header>
             <!-- Banner Section-->
-
+            <hr>
+            <!-- Main Content Section-->
             <div id="Wrapper">
 
 
@@ -40,20 +58,25 @@
                         <h2>About me</h2>
                         <p>Sophomore in the GIMM program.</p>
                         <p>Working on improving my woodcarving.</p>
-                        <p>Nontraditional student (Older person).</p>
+                        <p>Nontraditional student (older person).</p>
                         <br>
-                    
+
                     </div>
 
                 </section>
 
 
             </div>
+            <!-- Main Content Section-->
             <hr>
             <!-- Footer -->
             <footer id="Footer">
+                <div id="email">
+                    <a href="mailto: nathanrenfro@u.boisestate.edu">
+                        <address>nathanrenfro@u.boisestate.edu</address>
+                    </a>
+                </div>
                 <div id="copyright">
-                    <address>nathanrenfro@u.boisestate.edu</address>
                     <p>&copy; Copyright 2022 Nathan Renfro </p>
                 </div>
             </footer>
@@ -61,56 +84,6 @@
         </div>
     </body>
 
-    <!--Future css stuff when we do that-->
-    <style>
-        #NavBar {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
-
-        .NavLink {
-            float: left;
-        }
-
-        .NavLink a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        .NavLink a:hover:not(.active) {
-            background-color: #111;
-        }
-
-        .active {
-            background-color: #04AA6D;
-        }
-
-        body {
-            background-color: steelblue;
-        }
-
-        #TopBanner {
-            padding-left: 14px;
-            color: white;
-        }
-
-        header {
-            background-color: #333;
-
-        }
-
-        #BSULogo {
-            width: 100px;
-            height: auto;
-
-        }
-    </style>
 
 
     </html>
