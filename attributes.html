@@ -24,9 +24,30 @@
                 <img src="#" id="blankId" class="blankClass" width="100" height="100" alt="Blank Image" title="Should show alt text for blank image">
                 <p style="color: darkblue;" title="Title for this paragraph"> Attribute examples for &lt;img&gt; and &lt;p&gt;.</p> 
             </div>
+            <!-- Harrison-->
+            <div>
+                <label> label Defines a label for an input <input pattern="[A-Za-z]{3}" size="10px" step="1" value="........"> element </label>
+                <p>search something.</p>
+                    <input type="search" id="myInput" onsearch="myFunction()">
+                    <p id="demo"></p>
+                
+                <label for="quantity">Quantity (between 1 and 25):</label>
+                <input id="quantity" name="quantity" min="1" max="25"><br>
+
+                <label for="disable">Try typeing:</label>
+                <input type="text" id="disable" name="disable" disabled><br><br>
+                <input type="submit" value="Submit">
+                <p> Attribute examples for &lt;input&gt;.</p> 
+            </div>
+
         </main>
 
         <footer></footer>
     </body>
-
+    <script>
+        function myFunction() {
+           var x = document.getElementById("myInput");
+           document.getElementById("demo").innerHTML = "searching for: " + x.value;
+        }
+        </script>
     </html>
