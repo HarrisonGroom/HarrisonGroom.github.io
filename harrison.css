@@ -4,7 +4,7 @@
 /* color scheme: https://paletton.com/#uid=23V0u0k699R4Nmp5GgxbV6qiT6g */
 
 html {
-    background-color: darkgray;
+    background-color: steelblue;
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 62.5%; /* 10px based on a browser default of 16px */
@@ -17,7 +17,7 @@ body {
 h1 {
     font-weight: 400;
     font-size: 3.6rem;
-    color: darkgray;
+    color: steelblue;
     text-align: center;
     clear: both;
     padding: 1.5rem 1.5rem;
