@@ -1,14 +1,4 @@
-div #square{
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    position: relative;
-    animation-name: square;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    float: center;
-  }
-  
+
   @keyframes square {
     0%   {background-color:red; left:0px; top:0px;}
     25%  {background-color:yellow; left:200px; top:0px;}
@@ -50,9 +40,24 @@ div #square{
     background-color: #40a977;
     border-radius: 50%;
     shape-outside: circle();
+    animation-name: circle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
     
   }
 
+  @keyframes circle {
+    0%   {background-color:red; width: 50px;
+      height: 50px;}
+    25%  {background-color:yellow; width: 70px;
+      height: 70px; }
+    50%  {background-color:blue; width: 100px;
+      height: 100px;}
+    75%  {background-color:green; width: 120px;
+      height: 120px;}
+    100% {background-color:red; width: 50px;
+      height: 130px;}
+  }
 
   /*background gradient*/
   .css-selector {
@@ -83,4 +88,3 @@ div #square{
     50%{background-position:100% 22%}
     100%{background-position:0% 79%}
 }
-  
