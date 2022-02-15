@@ -53,6 +53,7 @@ a {
 }
 
 #WebPage {
+	display: flex;
 	width: 80%;
 	/*width: 960px;*/
 	margin: 1.5rem auto;
