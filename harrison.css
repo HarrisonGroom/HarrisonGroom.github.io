@@ -66,25 +66,16 @@ a {
     margin: 1.5rem;
 }
 
-    #banner a#gimm {
-        float: left;
-    }
-
-        #banner a#gimm img {
-            height: 150px;
-            width: 300px;
-            border-radius: 20px;
-        }
-
-    #banner a#idaho {
+    #banner a#harrison {
         float: right;
     }
 
-        #banner a#idaho img {
+        #banner a#harrison img {
             height: 150px;
-            border-radius: 20px;
-            width: 200px;
+            width: 250px;
+            border-radius: 50px;
         }
+
 
     #banner nav {
         background-color: #3f3f3e;
@@ -194,13 +185,6 @@ a {
     height: 70px
 }
 
-#Footer #BearLogo {
-    float: right;
-}
-
-#BearLogo a img {
-    height: 70px
-}
 
 #Footer p {
     clear: both;
@@ -215,33 +199,7 @@ a {
 
 
 /*Animationn*/
-  .space {
-    animation:reverse-spin 30s infinite linear;
-    bottom:0;
-    content:"";
-    left:-50%;
-    position:absolute;
-    right:-50%;
-    top:0;
-  }
-  
-  .layer1 {
-    transform:translateZ(1000px);
-  }
-  
-  .layer2 {
-    transform:translateZ(500px);
-  }
-  
-  .layer3 {
-    transform:translateZ(250px);
-  }
-  
-  .wrapper {
-    margin: 100px;
-    perspective: 1000px;
-    perspective-origin: 50%;
-  }
+ 
   
   .sphere {
     animation: spin 30s infinite linear;
@@ -289,24 +247,6 @@ a {
     width: 200px;
   }
   
-  /* .sphere .equator {
-    transform:rotateX(90deg);
-  }
-  
-  .sphere .tropic {
-    border-width:8px;
-    height:172px;
-    margin:14px;
-    width:172px;
-  }
-  
-  .sphere .cancer {
-    transform: translateY(-50px) rotateX(90deg);
-  }
-  
-  .sphere .capricorn {
-    transform: translateY(50px) rotateX(90deg);
-  } */
   
   .sphere .weapon {
     background-image:linear-gradient(#333, #ccc);
@@ -354,23 +294,3 @@ a {
     }
   }
   
-  .star {
-    background-color:#fff;
-    border-radius:50%;
-    height:2px;
-    position:absolute;
-    width:2px;
-    z-index:-1;
-  }
-  
-  .planet {
-    background-color:#cde;
-    border-top-left-radius:50%;
-    border-top-right-radius:50%;
-    bottom:0;
-    box-shadow:-20px 0 20px 30px #def;
-    height:20px;
-    left:0;
-    position:absolute;
-    right:0;
-  }
