@@ -195,7 +195,10 @@ a {
     color: darkgray;
 }
 
-
+div.video{
+    float:right;
+    padding-right: 20px;
+}
 
 
 /*Animationn*/
