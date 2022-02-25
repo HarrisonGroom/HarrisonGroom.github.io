@@ -8,7 +8,7 @@ html {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-size: 62.5%; /*10px based on the default font size of the browswer*/
 }
-
+ /*harrison*/
 body {
 	line-height: 1.4;
 }
@@ -26,7 +26,7 @@ h1 {
 h2 {
 	font-size: 2.2rem;
 	font-weight: 400;
-	line-height: 1.1;
+	line-height: 1.1; 
 	text-align: center;
 	color: #226765;
 }
@@ -36,13 +36,13 @@ h2 {
 	}
 
 h3 {
-	font-size: 1.8rem; /*harrison*/
+	font-size: 1.8rem; 
 	font-weight: 400;
 	line-height: 1.1;
 	text-align: center;
 	color: #226765;
 }
-
+ /*harrison*/
 p {
 	font-size: 1.4rem;
 }
