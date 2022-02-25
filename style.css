@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
 
 /*color scheme https://paletton.com/#uid=23h050kllllaFw0g0qFqFg0w0aF Primary color #226765 complement color #AA6b39*/
+
 html {
 	background-color: steelblue;
 	color: black;
@@ -65,13 +66,16 @@ a {
 	padding: 1rem 1rem 0 1rem;
 	margin-bottom: 1.5rem;
 }
-
+    #Banner a#BSULink{ /* Nathan */
+        float: left;
+    }
 
 	#Banner nav { /* Nathan */
 		background-color: #AA6b39;
 		border-radius: 10px;
 		padding: 0.5rem 0;
 		overflow: hidden;
+        clear: both;
 	}
 
 		#Banner nav ul { /* Nathan */
@@ -99,6 +103,10 @@ a {
 	box-shadow: 5px 5px 5px #333333;
 	margin-bottom: 1.5rem;
 	overflow: hidden;
+}
+
+#Wrapper img#NathanPNG{ /* Nathan */
+    float: right;
 }
 
 	#Wrapper h2 {
@@ -130,32 +138,31 @@ a {
 	font-size: 3rem;
 }
 
-#Nathan{ /* nathan */
+#Nathan{ /* Nathan */
 	font-family: 'Quintessential', cursive;
 	float: center;
-
+    clear: none;
 }
 
-#BSULogo { /* nathan */
+#BSULogo { /* Nathan */
     width: 100px;
     height: auto;
     padding-right: 5px;
     padding-top: 5px;
 	border-radius: 10px;
 	margin-bottom: 1rem;
+
 }
 
-#NathanPNG{
+#NathanPNG{ /* Nathan */
 	width: 200px;
     height: auto;
     padding-right: 5px;
     padding-top: 5px;
 	padding-bottom: 5px;
 	border-radius: 20px;
-
-	float: right;
 }
-#NathanAbout{
+#NathanAbout{ /* Nathan */
 	padding: .5rem;
 }
 /*side links*/
