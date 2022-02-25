@@ -96,7 +96,7 @@ a {
 				color: #AA6b39;
 			}
 
-/*Content area*/
+/*-------------------------------------Content area-------------------------------------*/
 #Wrapper {
 	background-color: #ECECEC;
 	border-radius: 20px;
@@ -165,7 +165,7 @@ a {
 #NathanAbout{ /* Nathan */
 	padding: .5rem;
 }
-/*side links*/
+/*----------------------------side links--------------------------------------*/
 #SideLinks {
 	width: 20%;
 	float: left;
@@ -189,7 +189,7 @@ a {
 			text-decoration: underline;
 		}
 
-/*Blog Articles*/
+/*----------------------------------------------Blog Articles----------------------------------------*/
 #Posts {
 	width: 80%;
 	float: right;
@@ -219,7 +219,7 @@ a {
 		padding: 0.5rem;
 	}
 
-/*Footer*/
+/*----------------------------------------------------Footer----------------------------------*/
 #Footer {
 	background-color: #AA6b39;
 	border-radius: 20px;
@@ -243,4 +243,4 @@ a {
 
 
 
-/* harrison changes  */
+
