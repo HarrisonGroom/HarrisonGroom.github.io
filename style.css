@@ -105,8 +105,6 @@ a {
 	overflow: hidden;
 }
 
-
-
 	#Wrapper h2 {
 		padding: 1rem 0;
 	}
@@ -122,6 +120,9 @@ a {
 }
 .WrapperMain img#NathanPNG{ /* Nathan */
     float: right;
+}
+.WrapperMain h2#NABout{ /* Nathan */
+	clear:both;
 }
 .IframePages{ /* Nathan */
 	background-color: #ECECEC;
