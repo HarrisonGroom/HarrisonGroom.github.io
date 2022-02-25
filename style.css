@@ -172,11 +172,11 @@ a {
 	box-shadow: 5px 5px 5px #333333;
 }
 #elite{
-	width:50%;
+	width:auto;
 	height:auto;
 	clear:right;
 	float: right;
-
+	border-radius: 20px;
 }
 /*----------------------------side links--------------------------------------*/
 #SideLinks {
