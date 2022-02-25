@@ -164,12 +164,19 @@ a {
 #NathanAbout{ /* Nathan */
 	padding: .5rem;
 }
-#NathanMainPic{
+#NathanMainPic{ /* Nathan */
 	width: 200px;
     height: auto;
 	margin-bottom: 1rem;
 	border-radius: 20px;
 	box-shadow: 5px 5px 5px #333333;
+}
+#elite{
+	width:50%;
+	height:auto;
+	clear:right;
+	float: right;
+
 }
 /*----------------------------side links--------------------------------------*/
 #SideLinks {
