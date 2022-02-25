@@ -139,31 +139,31 @@ a {
 
 /*Blog articles*/
 
-#Posts {
+#stuff {
     width: 85%;
     float: right;
     background-color: white;
 }
 
-    #Posts a {
+    #stuff a {
         color: #4E4A3F;
     }
 
-        #Posts a:hover {
+        #stuff a:hover {
             color: #847D6C;
             text-decoration: underline;
         }
 
-    #Posts p {
+    #stuff p {
         padding: 0.5rem;
     }
 
-    #Posts hr {
+    #stuff hr {
         border-color: #eeeeee;
         border-style: ridge;
     }
 
-    #Posts footer {
+    #stuff footer {
         padding: 0.5rem;
     }
 
