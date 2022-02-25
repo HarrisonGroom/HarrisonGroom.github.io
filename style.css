@@ -104,7 +104,7 @@ a {
 		padding: 1rem 0;
 	}
 /* nathan */
-	#WrapperNested {
+	.WrapperMain {
 		background-color: #ECECEC;
 		border-radius: 20px;
 		box-shadow: 5px 5px 5px #333333;
