@@ -113,6 +113,10 @@ a {
 	overflow: hidden;
 	font-size: 1.5rem;
 }
+.IframePages{
+	background-color: #ECECEC;
+	font-size: 1.5rem;	
+}
 #mainIframe {
 	width: 100%;
 	height: 100%;
