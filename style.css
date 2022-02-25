@@ -103,7 +103,16 @@ a {
 	#Wrapper h2 {
 		padding: 1rem 0;
 	}
-
+/* nathan */
+	#WrapperNested {
+		background-color: #ECECEC;
+		border-radius: 20px;
+		box-shadow: 5px 5px 5px #333333;
+		margin-bottom: 1.5rem;
+		padding: 1.5rem;
+		overflow: hidden;
+		font-size: 1.5rem;
+	}
 /*side links*/
 #SideLinks {
 	width: 20%;
@@ -179,6 +188,7 @@ a {
 	color: #393939;
 }
 
+/* nathan */
 #BSULogo {
     width: 100px;
     height: auto;
