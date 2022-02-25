@@ -103,8 +103,8 @@ a {
 	#Wrapper h2 {
 		padding: 1rem 0;
 	}
-/* nathan */
-	.WrapperMain {
+
+	.WrapperMain { /* Nathan */
 		background-color: #ECECEC;
 		border-radius: 20px;
 		box-shadow: 5px 5px 5px #333333;
@@ -113,6 +113,7 @@ a {
 		overflow: hidden;
 		font-size: 1.5rem;
 	}
+
 /*side links*/
 #SideLinks {
 	width: 20%;
