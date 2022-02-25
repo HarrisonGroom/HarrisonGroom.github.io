@@ -177,7 +177,7 @@ a {
     overflow: hidden;
 }
 
-    #Footer #BSUlogo {
+    #Footer .BSUlogo {
         float: left;
     }
 
