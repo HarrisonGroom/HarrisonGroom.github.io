@@ -6,53 +6,61 @@
     </head>
 
     <body>
-        <header>
-            <header id="banner">
-                <h1>Enigmatic Errors</h1>
-                <nav>
-                    <ul>
-                        <li><a href=index.html>Home</a></li>
-                        <li><a href=Nested.html>Nested examples</a></li>
-                        <li><a href=attributes.html>Attribute examples</a></li>
-                        <li><a href=tags.html>Tag examples</a></li>
-                        <li><a href=Harrison.html>Harrison’s page</a></li>
-                        <li><a href=Nathan.html>Nathan’s page</a></li>
-                    </ul>
-                </nav>
-        </header>
+        <div id="WebPage">
+            <header>
+                <header id="banner">
+                    <h1>Enigmatic Errors</h1>
+                    <nav>
+                        <ul>
+                            <li><a href=index.html>Home</a></li>
+                            <li><a href=Nested.html>Nested examples</a></li>
+                            <li><a href=attributes.html>Attribute examples</a></li>
+                            <li><a href=tags.html>Tag examples</a></li>
+                            <li><a href=Harrison.html>Harrison’s page</a></li>
+                            <li><a href=Nathan.html>Nathan’s page</a></li>
+                            <li><a href="https://steveclowdus.github.io">Steve’s page</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <div class="WrapperMain">
+                    <main>
+                        <!--Nathan-->
+                        <div id="id" class="class">
+                            <img src="#" id="blankId" class="blankClass" width="100" height="100" alt="Blank Image"
+                                title="Should show alt text for blank image">
+                            <p style="color: darkblue;" title="Title for this paragraph"> Attribute examples for
+                                &lt;img&gt; and &lt;p&gt;.</p>
+                        </div>
+                        <!-- Harrison-->
+                        <div>
+                            <label> label Defines a label for an input <input pattern="[A-Za-z]{3}" size="10px" step="1"
+                                    value="........"> element </label>
+                            <p>search something then press enter.</p>
+                            <input type="search" id="myInput" onsearch="myFunction()">
+                            <p id="demo"></p>
 
-        <main>
-            <!--Nathan-->
-            <div id="id" class ="class">
-                <img src="#" id="blankId" class="blankClass" width="100" height="100" alt="Blank Image" title="Should show alt text for blank image">
-                <p style="color: darkblue;" title="Title for this paragraph"> Attribute examples for &lt;img&gt; and &lt;p&gt;.</p> 
-            </div>
-            <!-- Harrison-->
-            <div>
-                <label> label Defines a label for an input <input pattern="[A-Za-z]{3}" size="10px" step="1" value="........"> element </label>
-                <p>search something then press enter.</p>
-                    <input type="search" id="myInput" onsearch="myFunction()">
-                    <p id="demo"></p>
-                
-                    
-                    <label for="quantity">between 1 to 100:</label>
-                    <input type="number" id="quantity" name="quantity" min="1" max="100">
+
+                            <label for="quantity">between 1 to 100:</label>
+                            <input type="number" id="quantity" name="quantity" min="1" max="100">
 
 
-                <label for="disable">Try typeing:</label>
-                <input type="text" id="disable" name="disable" disabled><br><br>
-                <input type="submit" value="Submit">
-                <p> Attribute examples for &lt;input&gt;.</p> 
-            </div>
+                            <label for="disable">Try typeing:</label>
+                            <input type="text" id="disable" name="disable" disabled><br><br>
+                            <input type="submit" value="Submit">
+                            <p> Attribute examples for &lt;input&gt;.</p>
+                        </div>
 
-        </main>
+                    </main>
+                </div>
 
-        <footer></footer>
+                <footer></footer>
+        </div>
     </body>
     <script>
         function myFunction() {
-           var x = document.getElementById("myInput");
-           document.getElementById("demo").innerHTML = "searching for: " + x.value;
+            var x = document.getElementById("myInput");
+            document.getElementById("demo").innerHTML = "searching for: " + x.value;
         }
-        </script>
+    </script>
+
     </html>
