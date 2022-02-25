@@ -191,6 +191,14 @@ a {
 	box-shadow: 5px 5px 5px #333333;
 	margin-top: 10px;
 }
+
+#harrisonPic{ 
+	width: 200px;
+    height: auto;
+	margin-bottom: 1rem;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #333333;
+}
 /*----------------------------side links--------------------------------------*/
 #SideLinks {
 	width: 20%;
