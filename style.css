@@ -211,7 +211,14 @@ a {
 
 #harrisonPic{ 
 	width: 200px;
-    height: auto;
+ 	height: auto;
+	margin-bottom: 1rem;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #333333;
+}
+	#stevePicture{ /* Steve */
+	width: 200px;
+	height: auto;
 	margin-bottom: 1rem;
 	border-radius: 20px;
 	box-shadow: 5px 5px 5px #333333;
