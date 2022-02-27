@@ -2,69 +2,97 @@
 @import url(reset.css);
 
 /* color scheme: https://paletton.com/#uid=23V0u0k699R4Nmp5GgxbV6qiT6g */
-
 html {
-    background-color: steelblue;
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 62.5%; /* 10px based on a browser default of 16px */
+	background-color: steelblue;
+	color: black;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 62.5%; /*10px based on the default font size of the browswer*/
 }
 
 body {
-    line-height: 1.4;
+	line-height: 1.4;
 }
 
 h1 {
-    font-weight: 400;
-    font-size: 3.6rem;
-    color: steelblue;
-    text-align: center;
-    clear: both;
-    padding: 1.5rem 1.5rem;
-    line-height: 1.1rem;
+	font-weight: 400;
+	font-size: 5rem;
+	line-height: 1.1;
+	color: #DCDCDC;
+	text-align: center;
+	clear: both;
+	padding: 0.7rem 1.5rem;
 }
 
 h2 {
-    font-size: 2.2rem;
-    color: #847D6C;
-    text-align: center;
+	font-size: 2.2rem;
+	font-weight: 400;
+	line-height: 1.1; 
+	text-align: center;
+	color: #226765;
 }
 
-    h2 a {
-        font-size: inherit;
-    }
+	h2 a {
+		font-size: inherit;
+	}
 
 h3 {
-    font-size: 1.8rem;
+	font-size: 1.8rem; 
+	font-weight: 400;
+	line-height: 1.1;
+	text-align: center;
+	color: #226765;
 }
-
-h4 {
-    font-size: 1.6rem;
-}
-
+ 
 p {
-    font-size: 1.4rem;
+	font-size: 1.4rem;
 }
 
 a {
-    font-size: 1.6rem;
-    text-decoration: none;
+	font-size: 1.6rem;
+	text-decoration: none;
 }
 
-/* WebPage layout*/
 #WebPage {
-    width: 960px;
-    margin: 1.5rem auto;
+	width: 90%;
+	margin: 1.5rem auto;
 }
 
-/* Banner */
-#banner {
-    background-color: #4D4E5B;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px #333333;
-    padding: 1rem 1rem 0 1rem;
-    margin: 1.5rem;
+#banner { 
+	background-color: #226765;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #333333;
+	padding: 1rem 1rem 0 1rem;
+	margin-bottom: 1.5rem;
 }
+    #banner a#BSULink{ 
+        float: left;
+    }
+
+	#banner nav { 
+		background-color: #AA6b39;
+		border-radius: 10px;
+		padding: 0.5rem 0;
+		overflow: hidden;
+        clear: both;
+	}
+    #banner nav ul { 
+        text-align: center;
+    }
+
+    #banner nav li {
+        display: inline;
+    }
+
+    #banner nav a { 
+        color: #DCDCDC;
+        padding: 1.0rem 1.0rem;
+    }
+
+        #Banner nav a:hover { 
+            background-color: #0D4D4B;
+            color: #AA6b39;
+        }
+
 
     #banner a#harrison {
         float: right;
@@ -77,65 +105,55 @@ a {
         }
 
 
-    #banner nav {
-        background-color: #3f3f3e;
-        border-radius: 10px;
-        padding: .5rem 0;
-        overflow: hidden;
-    }
-
-        #banner nav ul {
-            text-align: center;
-        }
-
-        #banner nav li {
-            display: inline;
-        }
-
-        #banner nav a {
-            color: darkgray;
-            padding: 1.0rem 2.0rem;
-        }
-
-            #banner nav a:hover {
-                background-color: #6B6D7B;
-            }
+  
 
 /* Content*/
 #Wrapper {
-    background-color: lightgray;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px #333333;
-    margin-bottom: 1.5rem;
-    overflow: hidden;
+	background-color: #ECECEC;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #333333;
+	margin-bottom: 1.5rem;
+	overflow: hidden;
 }
 
-    #Wrapper h2 {
-        padding: 1rem 0;
-    }
+	#Wrapper h2 {
+		padding: 1rem 0;
+	}
+
+.WrapperMain { 
+	background-color: #ECECEC;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #333333;
+	margin-bottom: 1.5rem;
+	padding: 1.5rem;
+	overflow: hidden;
+	font-size: 1.5rem;
+}
 
 /* sidelinks*/
-#Sidelinks {
-    width: 15%;
-    float: left;
+#SideLinks {
+	width: 20%;
+	float: left;
+	background-color: #ECECEC;
+	padding-top: 1rem;
 }
 
-    #Sidelinks ul {
-        text-align: center;
-    }
+	#SideLinks ul {
+		text-align: center;
+	}
 
-    #Sidelinks li {
-        padding-bottom: 1rem;
-    }
+	#SideLinks li {
+		padding: 1.0rem;
+	}
 
-    #Sidelinks a {
-        color: #131210;
-    }
+	#SideLinks a {
+		color: #072c66;
+	}
 
-        #Sidelinks a:hover {
-            color: #847D6C;
-            text-decoration: underline;
-        }
+		#SideLinks a:hover {
+			color: #AA6b39;
+			text-decoration: underline;
+		}
 
 /*Blog articles*/
 
