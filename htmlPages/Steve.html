@@ -1,45 +1,87 @@
-<DOCTYPE html>
-    <html>
-        <head>
-            <style>
-                ul {
-                  list-style-type: none;
-                  margin: 0;
-                  padding: 0;
-                  overflow: hidden;
-                  background-color: #666;
-                }
+<!DOCTYPE html>
+<html>
 
-                li {
-                  float: left;
-                }
+<head>
+    <meta charset="utf-8" />
+    <title>My Home Page</title>
+    <link href="../styles/style.css" rel="stylesheet" />
+</head>
 
-                li a {
-                  display: block;
-                  color: white;
-                  text-align: center;
-                  padding: 14px 16px;
-                  text-decoration: none;
-                }
-
-                li a:hover:not(.active) {
-                  background-color: #111;
-                }
-
-                .active {
-                  background-color: #39E;
-                }
-                </style>
-        </head>
-        <body>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Nested.html">Examples of Nested Tags</a></li>
-                <li><a href="attributes.html">Examples of Attributes</a></li>
-                <li><a href="tags.html">Examples of Tags</a></li>
-                <li><a href="https://steveclowdus.github.io">Steve’s Page</a></li>
-                <li><a href="https://ncrenfro.github.io">Nathan’s page</a></li>
-                <li><a href="Harrison.html">Harrison’s page</a></li>
+<body>
+    <div id="WebPage">
+        <!-- Banner -->
+        <header id="Banner">
+                
+                    <img src="../images/Steve.png" id="stevePNG"/>
+                
+            <h1>Steve Clowdus</h1>
+            <nav>
+                <ul>
+                    <li><a href="https://harrisongroom.github.io/htmlPages/index.html">Home</a></li>
+                    <li><a href="https://harrisongroom.github.io/htmlPages/Nested.html">Nested examples</a></li>
+                    <li><a href="https://harrisongroom.github.io/htmlPages/attributes.html">Attribute examples</a></li>
+                    <li><a href="https://harrisongroom.github.io/htmlPages/tags.html">Tag examples</a></li>
+                    <li><a href="https://ncrenfro.github.io/htmlPages/">Nathan</a></li>
+                    <li><a href="https://harrisongroom.github.io/htmlPages/Harrison.html">Harrison</a></li>
                 </ul>
-        </body>
-    </html>
+            </nav>
+        </header>
+        <!-- Banner -->
+
+        <div id="Wrapper">
+
+            <!-- Side Links -->
+            <aside id="SideLinks">
+                <h2>Side Links</h2>
+                <ul>
+                    <li><a href="https://www.boisestate.edu/gimm/">Gimm</a></li>
+                    <li><a href="style.html">style html</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+            </aside>
+            <!-- Side Links -->
+            <!-- Articles -->
+            <section id="Posts">
+                <article>
+                    <h2>Bio</h2>
+                    <p>
+                      intro
+                    </p>
+
+                </article>
+                <hr />
+                <article>
+                    <h2>Projects I have Worked On</h2>
+                    <p>
+                      300 website.
+                    </p>
+                </article>
+                <hr />
+                <article>
+                    <h2>Resume</h2>
+                    <p>
+                      things
+                    </p>
+                </article>
+                <hr>
+               
+            </section>
+            <!-- Articles -->
+        </div>
+        <!-- Footer -->
+        <footer id="Footer">
+            <div >
+                <a href="#">
+                    <img src="../images/Boise state.jpg" id="BSULogo2"/>
+                </a>
+            </div>
+
+            <div>
+                <p>&copy; Copyright 2022 Steve Clowdus & Boise State University</p>
+            </div>
+        </footer>
+        <!-- Footer -->
+    </div>
+</body>
+
+</html>
