@@ -15,12 +15,12 @@ body {
   font-size: 1.6rem;
   margin: auto;
   max-width: 60rem;
-  color: #d8edea;
+  color: gray;
   background: radial-gradient(
     circle,
-    rgba(175, 196, 174, 1) 0%,
-    rgba(104, 204, 191, 1) 89%,
-    rgba(94, 191, 178, 1) 100%
+    rgb(196, 174, 174) 0%,
+    rgb(204, 107, 104) 89%,
+    rgb(191, 130, 94) 100%
   );
 }
 
@@ -67,6 +67,7 @@ div {
 .game-area {
   display: flex;
   justify-content: center;
+  background-color: lightslategray;
 }
 
 .game {
