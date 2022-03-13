@@ -13,6 +13,7 @@ html {
  /*harrison*/
 body {
 	line-height: 1.4;
+	background-color: steelblue;
 }
 
 h1 {
@@ -57,6 +58,7 @@ a {
 #WebPage {
 	width: 90%;
 	margin: 1.5rem auto;
+	background-color: steelblue;
 }
 
 #Banner { /* Nathan */
@@ -65,6 +67,7 @@ a {
 	box-shadow: 5px 5px 5px #333333;
 	padding: 1rem 1rem 0 1rem;
 	margin-bottom: 1.5rem;
+	overflow: hidden;
 }
     #Banner a#BSULink{ /* Nathan */
         float: left;
@@ -92,8 +95,9 @@ a {
 		}
 
 			#Banner nav a:hover { /* Nathan */
+				border-radius: 10px;
 				background-color: #0D4D4B;
-				color: #AA6b39;
+				color: #DCDCDC;
 			}
 
 /*-------------------------------------Content area-------------------------------------*/

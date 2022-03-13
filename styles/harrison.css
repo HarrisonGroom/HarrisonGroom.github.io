@@ -11,6 +11,7 @@ html {
 
 body {
 	line-height: 1.4;
+  background-color: steelblue;
 }
 
 h1 {
@@ -88,9 +89,10 @@ a {
         padding: 1.0rem 1.0rem;
     }
 
-        #Banner nav a:hover { 
+        #banner nav a:hover { 
+            border-radius: 10px;
             background-color: #0D4D4B;
-            color: #AA6b39;
+            color: #DCDCDC;
         }
 
 
