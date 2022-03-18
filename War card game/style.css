@@ -4,7 +4,7 @@ body {
   margin: 10px;
   padding: 0.5em;
   padding-bottom: 2em;
-  border-bottom: 10em solid darkslategray;
+  border-bottom: 10em solid #226765;
   min-width: 270px;
 }
 h3 {
@@ -44,8 +44,8 @@ td {
   padding: 1em 2%;
   color:ivory;
   background-color: DarkGreen;
-  background: radial-gradient(Forestgreen, DarkGreen);
-  border: 13px ridge SaddleBrown;
+  background: #226765;
+  border: 13px ridge #226765;
   border-radius:2%;
 }
 #Table .player-hand {
@@ -54,7 +54,6 @@ td {
 }
 
 #Table big {
-  /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";*/
   font-size: 10em;
   line-height: 1;
   display: inline-block;
@@ -127,39 +126,6 @@ td {
     opacity: 100%;
   }
 }
-
-/* touch screen breakpoint
-@media (hover: none) {
-  #Table .game big {
-    width: 0.67em;
-    position: relative;
-    text-align:center;
-  }
-  #Table .game big:before {
-    content: attr(title);
-    display: block;
-    font-size: 8px;
-  }
-#Table big[title*="clubs"]:after, #Table big[title*="spades"]:after, #Table big[title*="diamonds"]:after, #Table big[title*="hearts"]:after{
-    position: absolute;
-   left:0; 
-    top: 0;
-  }
-  #Table big[title*="clubs"]:after {
-    content: "\2663";
-  }
-  #Table big[title*="spades"]:after {
-    content: "\2660";
-  }
-  #Table big[title*="diamonds"]:after {
-    content: "\2666";
-    left: .05em;
-  }
-  #Table big[title*="hearts"]:after {
-    content: "\2665";
-    left: .05em;
-  }
-}*/
 /* sm breakpoint */
 @media (min-width: 470px) {
 }
