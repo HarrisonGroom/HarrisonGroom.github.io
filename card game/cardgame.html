@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Card Game</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="cardgame.css">
+</head>
+
+<body>
+
+    <div class='container-sm container'>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <img src="ellertson.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Storky</h5>
+                        <div class="row">
+                            <div class="col">
+                                <p class="card-text attack">Attack: 3</p>
+                            </div>
+                            <div class="col">
+                                <p class="card-text defense">Defense: 3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="dan.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Manateeyee</h5>
+                        <div class="row">
+                            <div class="col">
+                                <p class="card-text attack">Attack: 3</p>
+                            </div>
+                            <div class="col">
+                                <p class="card-text defense">Defense: 3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="Ted.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Girafey</h5>
+                        <div class="row">
+                            <div class="col">
+                                <p class="card-text attack">Attack: 3</p>
+                            </div>
+                            <div class="col">
+                                <p class="card-text defense">Defense: 3</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of row -->
+    </div>
+    <div class='container text-center health-display'>
+    <h4 id="opponent-health" class='text-center'>Opponent Health: 10</h4>
+    <button id="deathmatch" onclick="cardDeathMatch()"type="button" class="btn bt-lg btn-danger">Death Match Go</button>
+    <h4 id="player-health" class='text-center'>Player Health: 10</h4>
+    </div>
+    <div class='container-sm container'>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <img src="Trapped-in-Toilet.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Storky</h5>
+                        <div class="row">
+                            <div class="col">
+                                <p class="card-text attack">Attack: 3</p>
+                            </div>
+                            <div class="col">
+                                <p class="card-text defense">Defense: 3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="pic 2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Manateeyee</h5>
+                        <div class="row">
+                            <div class="col">
+                                <p class="card-text attack">Attack: 3</p>
+                            </div>
+                            <div class="col">
+                                <p class="card-text defense">Defense: 3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="pic2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Girafey</h5>
+                        <div class="row">
+                            <div class="col">
+                                <p class="card-text attack">Attack: 3</p>
+                            </div>
+                            <div class="col">
+                                <p class="card-text defense">Defense: 3</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of row -->
+    </div>
+
+
+
+    <script src="cardgame.js"></script>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+        -->
+</body>
+
+</html>
+</body>
+
+</html>

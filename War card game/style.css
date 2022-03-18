@@ -1,0 +1,210 @@
+html {background-color:ivory;}
+body {
+  font-family: Arial;
+  margin: 10px;
+  padding: 0.5em;
+  padding-bottom: 2em;
+  border-bottom: 10em solid darkslategray;
+  min-width: 270px;
+}
+h3 {
+  margin: 0.5em 0 0 0;
+}
+
+table {
+  position: absolute;
+  right: calc((100% - 8em) / 2);
+  margin-top: 3em;
+  font-family: Comic Sans MS, Courier;
+  font-style: italic;
+  color: ivory;
+  border-spacing: 0.5em;
+}
+caption {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+th {
+  width: 3.5em;
+  border-bottom: 1px solid ivory;
+}
+th,
+td {
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+#Table {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  /*align-content:center;*/
+  width: 100hw;
+  padding: 1em 2%;
+  color:ivory;
+  background-color: DarkGreen;
+  background: radial-gradient(Forestgreen, DarkGreen);
+  border: 13px ridge SaddleBrown;
+  border-radius:2%;
+}
+#Table .player-hand {
+  width: auto;
+  padding: 0 2%;
+}
+
+#Table big {
+  /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";*/
+  font-size: 10em;
+  line-height: 1;
+  display: inline-block;
+  background-color: white;
+  border-radius: 5%;
+  padding: 1.5px 1px 0px 1px;
+  color: navy;
+}
+#Table big[title*="clubs"],
+#Table big[title*="spades"] {
+  color: black;
+}
+#Table big[title*="diamonds"],
+#Table big[title*="hearts"] {
+  color: maroon;
+}
+#Table h2 {
+  margin-top: 0;
+}
+#Table .looser {
+  color: darkseagreen;
+}
+#Table .looser big {
+  color: gainsboro;
+}
+#Table .winner {
+  color: gold;
+}
+#Table p.winner {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#Table .winner big {
+  color: goldenrod;
+}
+
+.game {
+  text-align: center;
+  flex-grow: 2;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.game aside > big {
+  margin-top: 0.15em;
+}
+.game aside > strong {
+  font-size: 1.25em;
+  display: block;
+  margin-bottom: 0.15em;
+}
+.game aside > strong + big {
+  margin-top: 0;
+}
+
+@keyframes blinkingWinner {
+  0% {
+    opacity: 100%;
+  }
+  69% {
+    opacity: 100%;
+  }
+  70% {
+    opacity: 0%;
+  }
+  99% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+/* touch screen breakpoint
+@media (hover: none) {
+  #Table .game big {
+    width: 0.67em;
+    position: relative;
+    text-align:center;
+  }
+  #Table .game big:before {
+    content: attr(title);
+    display: block;
+    font-size: 8px;
+  }
+#Table big[title*="clubs"]:after, #Table big[title*="spades"]:after, #Table big[title*="diamonds"]:after, #Table big[title*="hearts"]:after{
+    position: absolute;
+   left:0; 
+    top: 0;
+  }
+  #Table big[title*="clubs"]:after {
+    content: "\2663";
+  }
+  #Table big[title*="spades"]:after {
+    content: "\2660";
+  }
+  #Table big[title*="diamonds"]:after {
+    content: "\2666";
+    left: .05em;
+  }
+  #Table big[title*="hearts"]:after {
+    content: "\2665";
+    left: .05em;
+  }
+}*/
+/* sm breakpoint */
+@media (min-width: 470px) {
+}
+/* md breakpoint */
+@media (min-width: 768px) {
+  body {
+    padding-right: 2em;
+    border-right: 11em solid darkslategray;
+    border-bottom: none;
+  }
+  table {
+    position: absolute;
+    top: 5em;
+    right: calc((11em - 8em) / 2);
+  }
+
+  #Table {
+    flex-wrap: nowrap;
+    height: auto;
+    padding: 1.5em 1.5%;
+  }
+  #Table .player-hand:nth-child(2) {
+    order: 3;
+  }
+}
+/* lg breakpoint */
+@media (min-width: 1024px) {
+  body {
+    border-right-width: 15em;
+  }
+  table {
+    right: calc((15em - 8em) / 2);
+  }
+  #Table {
+    padding: 1.5em 5%;
+  }
+}
+/* xlg breakpoint */
+@media (min-width: 1200px) {
+  #Table {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #Table p.winner {
+    animation: blinkingWinner 1.5s 3;
+  }
+}
