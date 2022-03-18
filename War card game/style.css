@@ -1,4 +1,7 @@
-html {background-color:ivory;}
+html {background-color:steelblue;
+  color: black;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 62.5%;}
 body {
   font-family: Arial;
   margin: 10px;

@@ -102,10 +102,6 @@
              aDeck.push(new Card(cardSuit[s], cardRank[r], cardPower[r], cardCode));
          }
      }
-     /* Jokers Included?
-         aDeck.push( new Card( 'Little', 'Joker', cardRank.length+1, "&#127199" )  ); &#127199; (Little: black joker) 
-         aDeck.push( new Card( 'Big', 'Joker', cardRank.length+2, "&#127167" )  ); &#127167; (Big: red joker)
-         */
      return aDeck;
  }
 
