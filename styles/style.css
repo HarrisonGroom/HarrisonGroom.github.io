@@ -212,6 +212,117 @@ a {
 	box-shadow: 5px 5px 5px #333333;
 	margin-top: 10px;
 }
+/*----------------------------Snake--------------------------------------*/
+#snakeGame{
+	/*clear: left;*/
+	background-color: #226765;
+	width: 500px;
+	/* float: left; */
+	padding: 1rem;
+	border-radius: 2rem;
+	margin-top: 1rem;
+	color:#DCDCDC;
+}
+#snakeGame h3{
+	color:#DCDCDC;
+}
+.gridSnake {
+    width: 200px;
+    height: 200px;
+	margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    background-color: lightblue;
+  }
+  
+  .gridSnake div {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .snake {
+    border-radius: 3px;
+    background-color: green;
+	background-image: radial-gradient(green, rgb(69, 187, 69));
+  }
+  
+  .apple {
+    background-color: red;
+	background-image: radial-gradient(red, darkred);
+    border-radius: 7px 7px 9px 9px;
+  }
+
+/*----------------------------frogger--------------------------------------*/
+#frogger{
+	/* clear: right; */
+	background-color: #226765;
+	width: 500px;
+	/* float: right; */
+	padding: 1rem;
+	border-radius: 2rem;
+	margin-top: 1rem;
+	color:#DCDCDC;
+}
+#frogger h3{
+	color:#DCDCDC;
+}
+.gridFrog {
+    border: 1px solid black;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+	margin: auto;
+	background-color: rgb(161, 185, 161);
+}
+
+.gridFrog div {
+    height: 20px;
+    width: 20px;
+}
+
+.ending-block {
+    background-color: red;
+	background-image: radial-gradient(blue,rgb(0, 0, 201), blue);
+}
+
+.starting-block {
+    background-color: blue;
+}
+.l1 {
+    background-color: brown;
+	background-image: linear-gradient(rgb(100, 17, 17),brown, rgb(100, 17, 17));
+	border-radius: 5px 0px 0px 5px;
+}
+.l2 {
+    background-color: brown;
+	background-image: linear-gradient(rgb(100, 17, 17),brown, rgb(100, 17, 17));
+}
+.l3 {
+    background-color: brown;
+	background-image: linear-gradient(rgb(100, 17, 17),brown, rgb(100, 17, 17));
+	border-radius: 0px 5px 5px 0px;
+}
+.l4, .l5 {
+    background-color: lightblue;
+}
+
+.c1 {
+    background-color: black;
+	background-image: linear-gradient(black,grey, lightgrey, grey, black);
+}
+
+.c2, .c3 {
+    background-color: lightgrey;
+}
+
+.frog {
+    background-color: green;
+	background-image: radial-gradient(green, rgb(23, 90, 23), black);
+	border-radius: 10px;
+	
+}
 
 #harrisonPic{ 
 	width: 200px;
