@@ -16,18 +16,16 @@
 
 
     <!--random number-->
-    <div>
+    <div id="page_container">
+      <div id="game_field">
+      <p>Guess a number between 0 and 100</p>
+      <input type="text" name="nr_game" id="id_nr_game" placeholder="enter a number here">
+      <button id="id_button">Guess!</button>
+      </div>
+      <p id="check_answer"></p>
+      <p id="id_counter"></p>
     </div>
-      #title Random Number Generator
-      p#rNum {{ number }}
-      #inputContainer
-        #headers 
-          p Min
-          p Max
-        div#inputs()
-          input#min(v-model ="min",min="-9999999999",max="9999999999",type="number") 
-          input#max(v-model ="max",min="-9999999999",max="9999999999",type="number") 
-          input#generate(type="submit",value="Generate Number",v-on:click="getInput()")
+  
          
         
 </body>
