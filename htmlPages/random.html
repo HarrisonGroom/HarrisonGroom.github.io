@@ -6,8 +6,29 @@
 
 </head>
 <body>
+    <!--search-->
     <p>search something then press enter.</p>
     <input type="search" id="myInput" onsearch="myFunction()">
     <p id="demo"></p>  
+
+
+
+
+
+    <!--random number-->
+    <div>
+    </div>
+      #title Random Number Generator
+      p#rNum {{ number }}
+      #inputContainer
+        #headers 
+          p Min
+          p Max
+        div#inputs()
+          input#min(v-model ="min",min="-9999999999",max="9999999999",type="number") 
+          input#max(v-model ="max",min="-9999999999",max="9999999999",type="number") 
+          input#generate(type="submit",value="Generate Number",v-on:click="getInput()")
+         
+        
 </body>
 <script  src="random.js"></script>
