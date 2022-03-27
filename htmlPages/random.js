@@ -128,13 +128,49 @@ function check_nr() {
   //alert(randomNr);
 }
 
-//
-let amount;
+//Random number between range
+const minNum = document.getElementById('id_numLow');
+const maxNum = document.getElementById('id_numHigh');
+var resultRand;
+var min;
+var max;
+var dif;
+document.getElementById('id_randomNum').addEventListener('click', function () {
+  document.getElementById("randNumDisplay").innerHTML = "";
+  min = parseFloat(minNum.value);
+  max = parseFloat(maxNum.value);
+  if(min > max){
+    max = parseFloat(minNum.value);
+    min = parseFloat(maxNum.value);
+  }
+  dif = max-min;
+  resultRand = Math.floor((Math.random() * dif) + min);
+  document.getElementById("randNumDisplay").innerHTML = "A random number between " + min + " and " + max + " is " +resultRand+".";
+  minNum.value = "";
+  maxNum.value = "";
+
+});
+
+//Add Balls
+const minBalls = document.getElementById('id_minBalls');
+const maxBalls = document.getElementById('id_maxBalls');
+var minBall;
+var maxBall;
+var resultRandBall;
 document.getElementById('id_go').addEventListener('click', function () {
   document.getElementById("placeToAdd").innerHTML = "";
-  amount = document.getElementById('id_number').value;
-  document.getElementById('id_number').value = "";
-  for (amount; amount > 0; amount--) {
+  minBall = parseFloat(minBalls.value);
+  maxBall = parseFloat(maxBalls.value);
+  if(minBall > maxBall){
+    maxBall = parseFloat(minBalls.value);
+    minBall = parseFloat(maxBalls.value);
+  }
+  difBall = maxBall-minBall;
+  resultRandBall = Math.floor((Math.random() * difBall) + minBall);
+  document.getElementById("placeToAdd").innerHTML = "You ask for a random number between " + maxBall+ " and " + minBall + ".  You get " +resultRandBall+" balls.";
+  minBalls.value = "";
+  maxBalls.value = "";
+  for (resultRandBall; resultRandBall > 0; resultRandBall--) {
     document.getElementById("placeToAdd").innerHTML += "<div class='ball' onclick='clearBalls()'></div>";
   }
 

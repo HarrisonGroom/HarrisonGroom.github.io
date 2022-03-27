@@ -57,15 +57,31 @@
   <br>
 
   <div class="container-fluid">
-    <div id="addingThings">
-      <div id="amountToAdd">
-        <p>Enter number of balls</p>
-        <input type="text" name="number" id="id_number" placeholder="enter a number here">
-        <button type="button" id="id_go" class="btn btn-danger">Go!</button>
+    <div id="randomNum">
+      <div id="getRange">
+        <p>Enter a low and high number.</p>
+        <input type="text" name="numLow" id="id_numLow" placeholder="Enter a low number here.">
+        <input type="text" name="numHigh" id="id_numHigh" placeholder="Enter a high number here.">
+        <button type="button" id="id_randomNum" class="btn btn-danger">Get random!</button>
       </div>
       <br>
-      <div class="container-fluid" id="placeToAdd"></div>
+      <div class="container-fluid" id="randNumDisplay"></div>
     </div>
+  </div>
+
+  <br>
+
+  <div class="container-fluid">
+    <div id="addingThings">
+      <div id="amountToAdd">
+        <p>Enter a low and high number for a random number of balls between that range.</p>
+        <input type="text" name="number" id="id_maxBalls" placeholder="enter a number here">
+        <input type="text" name="number" id="id_minBalls" placeholder="enter a number here">
+        <button type="button" id="id_go" class="btn btn-danger">Go!</button>
+      </div>
+      <br>      
+    </div>
+    <div class="container-fluid" id="placeToAdd"></div>
   </div>
 
   <br>
