@@ -135,12 +135,13 @@ a {
 
 .IframePages{ /* Nathan */
 	background-color: #ECECEC;
-	font-size: 1.5rem;	
+	font-size: 1.5rem;
+	
 }
 
 #mainIframe { /* Nathan */
 	width: 100%;
-	height: 120%;
+	height: 100%;
 }
 
 #About{ /* Nathan */
@@ -437,3 +438,4 @@ a {
 	width: 100%;
 	height: auto;
 }
+
