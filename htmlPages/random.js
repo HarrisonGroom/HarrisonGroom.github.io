@@ -8,6 +8,21 @@ function change() // no ';' here
 
 
 
+// color change
+const btn = document.getElementById('btn');
+
+let index = 0;
+
+const colors = ['red', 'green', 'blue', 'purple'];
+
+btn.addEventListener('click', function onClick() {
+  btn.style.backgroundColor = colors[index];
+  btn.style.color = 'white';
+
+  index = index >= colors.length - 1 ? 0 : index + 1;
+});
+
+
 //button 3
 function myFunction() {
     var x = document.getElementById("myInput");
