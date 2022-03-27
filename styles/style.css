@@ -430,3 +430,8 @@ a {
 	box-shadow: 5px 5px 5px #333333;
 	float: right;
 }
+
+.responsive{
+	width: 100%;
+	height: auto;
+}
