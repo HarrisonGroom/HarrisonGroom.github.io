@@ -1,5 +1,5 @@
 {
-    const resumeConstant = document.querySelector("elementToChange");
+    const resumeConstant = document.getElementById("elementToChange");
     resumeConstant.style.color = "red";
-    resumeConstant.innerText = "My resume here.";
+    resumeConstant.innerText = "[My resume here.]";
 }
