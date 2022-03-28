@@ -1,5 +1,5 @@
-    function changeHtmlElement() {
-        const resumeConstant = document.getElementById("elementToChange");
-        resumeConstant.style.color = "red";
-        resumeConstant.innerText = "[My resume here.]";
-    }
+function changeHtmlElement() {
+    const resumeConstant = document.getElementById("elementToChange");
+    resumeConstant.innerHTML = "[My resume here.]";
+    resumeConstant.color = "red";
+}
