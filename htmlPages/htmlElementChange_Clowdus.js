@@ -1,5 +1,5 @@
 function changeHtmlElement() {
-  document.getElementById("elementToChange").innerHTML = "Hello JavaScript!"
+  document.getElementById("elementToChange").innerHTML = "My updated resume here."
 }
 
 /*function changeHtmlElement() {
