@@ -1,5 +1,5 @@
 function changeHtmlElement() {
-  document.getElementById("elementToChange").innerHTML = "My updated resume here."
+  document.getElementById("elementToChange").innerHTML = "I am an updated resume placeholder."
 }
 
 /*function changeHtmlElement() {
