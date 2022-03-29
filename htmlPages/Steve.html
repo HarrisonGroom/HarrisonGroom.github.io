@@ -11,9 +11,6 @@
 </head>
 
 <body>
-    <script>
-        document.getElementById("elementToChange").innerHTML = "[My updated resume here.]";
-    </script>
     <div class="container-fluid" id="WebPage">
         <!-- Banner -->
         <header id="Banner">
@@ -85,9 +82,9 @@
                 <hr>
                 <article>
                     <h2>Resume</h2>
-                        <p id="elementToChange">
-                            [My resume here.]
-                        </p>
+                    <p id="elementToChange">
+                        [My resume here.]
+                    </p>
                 </article>
                 <hr>
 
@@ -114,6 +111,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
+    <script>
+        function changeHtmlElement() {
+            document.getElementById("elementToChange")).style.color = 'red';
+            document.getElementById("elementToChange")).innerHTML = '[My updated resume here.]';
+        }
+    </script>
 </body>
 
 </html>
