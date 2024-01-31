@@ -3,41 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harrison Groom</title>
-    <link rel="stylesheet" href="/styles/Style.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Portfolio</title>
 </head>
 <body>
-    <div class="video-bg">
-        <video width="320" height="240" autoplay loop muted>
-            <source src="#" type="video/mp4">
-        </video>
-    </div>
-    <div class="dark-light">
-        <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            
-        </svg>
-    </div>
-    <div class="app">
-        <!-- Your existing HTML content goes here -->
-    </div>
-    <div class="main-container">
-        <div class="main-header">
-            <!-- Your existing main header content goes here -->
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1>Your Name</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-        <div class="content-wrapper">
-            <div class="content-wrapper-header">
-                <!-- Your existing content wrapper header content goes here -->
-            </div>
-            <div class="content-section">
-                <div class="content-section-title">Installed</div>
-                <ul>
-                    <!-- Placeholder content for the main section -->
-                    <li>App 1</li>
-                    <li>App 2</li>
-                    <li>App 3</li>
-                </ul>
-            </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Your introduction goes here...</p>
         </div>
-    </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>My Projects</h2>
+
+            <!-- Project Cards -->
+            <div class="project-card" id="project1">
+                <h3>Project 1</h3>
+                <p>Description of Project 1...</p>
+            </div>
+
+            <div class="project-card" id="project2">
+                <h3>Project 2</h3>
+                <p>Description of Project 2...</p>
+            </div>
+
+            <!-- Add more project cards as needed -->
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Your contact information and form can go here...</p>
+        </div>
+    </section>
+
 </body>
 </html>
