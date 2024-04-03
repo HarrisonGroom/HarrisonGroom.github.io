@@ -60,7 +60,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #212121;
-    background-color: #FDD200;
+    background-color: steelblue;
 }
 
 hr.star-primary {
