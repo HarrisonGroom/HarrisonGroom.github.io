@@ -459,14 +459,13 @@ div.seeMore-btn .btn-outline:hover, div.contact-btn .btn-outline:hover {
 }
 
 .floating-label-form-group label {
+    display: block;
     z-index: 0;
     position: relative;
     top: 2em;
     margin: 0;
     font-size: .85em;
     line-height: 1.764705882em;
-    vertical-align: middle;
-    vertical-align: baseline;
     opacity: 0;
     -webkit-transition: top .3s ease,opacity .3s ease;
     -moz-transition: top .3s ease,opacity .3s ease;
