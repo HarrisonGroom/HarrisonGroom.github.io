@@ -459,7 +459,6 @@ div.seeMore-btn .btn-outline:hover, div.contact-btn .btn-outline:hover {
 }
 
 .floating-label-form-group label {
-    display: block;
     z-index: 0;
     position: relative;
     top: 2em;
