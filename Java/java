@@ -34,11 +34,6 @@ $(document).ready(function() {
     });
 });
 
-$(document).ready(function() {
-    $('.carousel').carousel({
-      interval: 6000
-    })
-  });
   jQuery(document).ready(function($) {
     "use strict";
   	//  TESTIMONIALS CAROUSEL HOOK
