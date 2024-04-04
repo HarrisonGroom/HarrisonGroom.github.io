@@ -554,73 +554,175 @@ footer .footer-below {
 
 
 /* project slides*/
-.shadow-effect {
-    background: #fff;
-    padding: 20px;
-    border-radius: 4px;
-    text-align: center;
-border:1px solid #ECECEC;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
-}
-#customers-testimonials .shadow-effect p {
-    font-family: inherit;
-    font-size: 17px;
-    line-height: 1.5;
-    margin: 0 0 17px 0;
-    font-weight: 300;
-}
-.testimonial-name {
-    margin: -17px auto 0;
-    display: table;
-    width: auto;
-    background: #3190E7;
-    padding: 9px 35px;
-    border-radius: 12px;
-    text-align: center;
+/******* Middle section CSS Start ******/
+/* -------- Landing page ------- */
+.game-section {
+    padding: 60px 50px;
+  }
+  .game-section .owl-stage {
+    margin: 15px 0;
+    display: flex;
+    display: -webkit-flex;
+  }
+  .game-section .item {
+    margin: 0 15px 60px;
+    width: 320px;
+    height: 400px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+    background: #343434 no-repeat center center / cover;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    cursor: pointer;
+  }
+  .game-section .item.active {
+    width: 500px;
+    box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
+  }
+  .game-section .item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+  }
+  .game-section .item-desc {
+    padding: 0 24px 12px;
     color: #fff;
-    box-shadow: 0 9px 18px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.05);
-}
-#customers-testimonials .item {
-    text-align: center;
-    padding: 50px;
-        margin-bottom:80px;
-    opacity: .2;
-    -webkit-transform: scale3d(0.8, 0.8, 1);
-    transform: scale3d(0.8, 0.8, 1);
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-#customers-testimonials .owl-item.active.center .item {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transform: translateY(calc(100% - 54px));
+    -webkit-transform: translateY(calc(100% - 54px));
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+  }
+  .game-section .item.active .item-desc {
+    transform: none;
+    -webkit-transform: none;
+  }
+  .game-section .item-desc p {
+    opacity: 0;
+    -webkit-transform: translateY(32px);
+    transform: translateY(32px);
+    transition: all 0.4s ease-in-out 0.2s;
+    -webkit-transition: all 0.4s ease-in-out 0.2s;
+  }
+  .game-section .item.active .item-desc p {
     opacity: 1;
-    -webkit-transform: scale3d(1.0, 1.0, 1);
-    transform: scale3d(1.0, 1.0, 1);
-}
-.owl-carousel .owl-item img {
-    transform-style: preserve-3d;
-    max-width: 90px;
-    margin: 0 auto 17px;
-}
-#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
-#customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
-    background: #3190E7;
-    transform: translate3d(0px, -50%, 0px) scale(0.7);
-}
-#customers-testimonials.owl-carousel .owl-dots{
-display: inline-block;
-width: 100%;
-text-align: center;
-}
-#customers-testimonials.owl-carousel .owl-dots .owl-dot{
-display: inline-block;
-}
-#customers-testimonials.owl-carousel .owl-dots .owl-dot span {
-    background: #3190E7;
-    display: inline-block;
-    height: 20px;
-    margin: 0 2px 5px;
-    transform: translate3d(0px, -50%, 0px) scale(0.3);
-    transform-origin: 50% 50% 0;
-    transition: all 250ms ease-out 0s;
-    width: 20px;
-}
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .game-section .owl-theme.custom-carousel .owl-dots {
+    margin-top: -20px;
+    position: relative;
+    z-index: 5;
+  }
+  /******** Middle section CSS End *******/
+  
+  /***** responsive css Start ******/
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+    h2 {
+      margin-bottom: 32px;
+    }
+    h3 {
+      margin: 0 0 8px;
+      font-size: 24px;
+      line-height: 32px;
+    }
+  
+    /* -------- Landing page ------- */
+    .game-section {
+      padding: 50px 30px;
+    }
+    .game-section .item {
+      margin: 0 12px 60px;
+      width: 260px;
+      height: 360px;
+    }
+    .game-section .item.active {
+      width: 400px;
+    }
+    .game-section .item-desc {
+      transform: translateY(calc(100% - 46px));
+      -webkit-transform: translateY(calc(100% - 46px));
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    h2 {
+      margin-bottom: 32px;
+    }
+    h3 {
+      margin: 0 0 8px;
+      font-size: 24px;
+      line-height: 32px;
+    }
+    .line-title {
+      width: 330px;
+    }
+  
+    /* -------- Landing page ------- */
+    .game-section {
+      padding: 50px 30px 40px;
+    }
+    .game-section .item {
+      margin: 0 12px 60px;
+      width: 240px;
+      height: 330px;
+    }
+    .game-section .item.active {
+      width: 360px;
+    }
+    .game-section .item-desc {
+      transform: translateY(calc(100% - 42px));
+      -webkit-transform: translateY(calc(100% - 42px));
+    }
+  }
+  
+  @media (max-width: 767px) {
+    body {
+      font-size: 14px;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+    h3 {
+      margin: 0 0 8px;
+      font-size: 19px;
+      line-height: 24px;
+    }
+    .line-title {
+      width: 250px;
+    }
+  
+    /* -------- Landing page ------- */
+    .game-section {
+      padding: 30px 15px 20px;
+    }
+    .game-section .item {
+      margin: 0 10px 40px;
+      width: 200px;
+      height: 280px;
+    }
+    .game-section .item.active {
+      width: 270px;
+      box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
+      -webkit-box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
+    }
+    .game-section .item-desc {
+      padding: 0 14px 5px;
+      transform: translateY(calc(100% - 42px));
+      -webkit-transform: translateY(calc(100% - 42px));
+    }
+  }
