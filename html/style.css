@@ -554,9 +554,6 @@ footer .footer-below {
 
 
 /* project slides*/
-
-
-
 /* Container */
 .container-fluid {
     background: #fbf4e0;
@@ -625,24 +622,4 @@ footer .footer-below {
 
 p.right  { 
     float: right; 
-}
-
-/* Button */
-.btn-outline {
-    display: inline-block;
-    padding: 8px 20px;
-    font-size: 16px;
-    border: 2px solid #212121;
-    border-radius: 20px;
-    color: #212121;
-    background: #fff;
-    transition: all 0.3s ease-in-out;
-}
-
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active {
-    color: #fff;
-    background: #fdd200;
 }
