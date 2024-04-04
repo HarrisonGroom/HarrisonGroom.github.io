@@ -551,6 +551,19 @@ footer .footer-below {
     outline: 0;
 }
 
+
+
+/* project slides*/
+/* Global */
+body {
+    background: #a83b3b;
+    padding: 40px;
+}  
+
+div { word-break: break-all; }
+
+img { max-width:100%; }
+
 a {
 	-webkit-transition: all 150ms ease;
 	-moz-transition: all 150ms ease;
