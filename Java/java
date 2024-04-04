@@ -33,3 +33,9 @@ $(document).ready(function() {
         $(".navbar-toggle:visible").click();
     });
 });
+
+$(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 6000
+    })
+  });
